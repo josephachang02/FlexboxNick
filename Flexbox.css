@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    background-color:red;
+    color: white;
+    display: inline-block;
+    justify-content: space-around;
+    width: 65%;
+   margin-bottom: 15px;
+}
+. 
+.content {
+    display: flex;
+    align-items: ;
+}
+.containerbegin {
+   display: flex;
+   align-items: center;
+}
+
+.intro {
+    align-items: right;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.highlight{
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+.containerList {
+    display: flex;
+  flex-wrap: wrap;
+  /* for horizontal aligning of child divs */
+  /* for vertical aligning */
+  align-items: center;
+  top: auto;
+}
+
+. div> .ol {
+    font-weight: bolder;
+}
+
+.images {
+    width: 60px;
+    height: 40px;
+    border: 6px solid red;
+    display: inline-block;
+    margin: 4px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
